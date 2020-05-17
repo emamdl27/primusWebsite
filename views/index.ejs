@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+    <%- include("partials/head.html") %>
+    <style>
+        body {
+
+            font-family: 'Creepster', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include("partials/navigation.html") %>
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-2 center">
+                <img src="/img/primus.png" class ="animate__animated animate__bounce" alt="Primus Suck">
+            </div>
+        </header>
+    </div>
+
+    <div class="container-fluid" id="about">
+        <div class="row.bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fas fa-compact-disc fa-10x"></i>
+            </div>
+
+            <div class="col-sm-6">
+                <h3>A great rock band that really Suck!</h3>
+                <p>Primus is a rock Band with one of the best Bass players of all time Les Claypool and they had a weird
+                    sound
+                    that just make you say "What the fuck", the first time you listen to them but in the end you fell in
+                    love with that sound.</p>
+            </div>
+        </div>
+    </div>
+
+    <%- include("partials/footer.html") %>
+
+</body>
+
+</html>
